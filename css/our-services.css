@@ -1,0 +1,132 @@
+
+/*================SERVICE HERO===================*/
+#service-hero {
+    background-image: url("../img/service.jpg");
+    height: 400px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: left;
+    margin: 85px 0px 0px 0px;
+}
+
+#service-hero h1, h4{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin: 0;
+    background-color: rgba(255,255,255,0.7);
+    padding: 30px;
+
+}
+
+
+
+
+/*==================PICTURE LINKS========================*/
+.picture-links h1 {
+    color: #000;
+    background-color: rgba(255,255,255,0.6);
+    font-size: 70px;
+    text-align: center;
+}
+
+.pic-hover:hover div{
+    opacity: .2;
+}
+
+#picture-links-group {
+    background-image: url("../img/groups.jpg");
+    margin: 5%;
+    height: 350px;
+    width: 40%;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#picture-links-adults {
+    background-image: url("../img/adults.jpg");
+    margin: 5%;;
+    height: 350px;
+    width: 40%;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#picture-links-children {
+    background-image: url("../img/children.jpg");
+    margin: 5%;
+    height: 350px;
+    width: 40%;
+    border-radius: 15px;
+}
+
+#picture-links-trans {
+    background-image: url("../img/trans.jpg");
+    margin: 5%;
+    height: 350px;
+    width: 40%;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#disclaimer {
+    text-align: center;
+    padding: 5px;
+
+}
+
+#disclaimer button{
+    text-align: center;
+    padding: 15px;
+
+}
+
+/*==================THERAPY TYPES========================*/
+
+.therapy h1{
+    color: #fff;
+    background-color: #44b4b5;
+    padding: 15px;
+}
+
+.therapy h3{
+    padding: 5px;
+
+}
+
+.therapy button {
+    position: relative;
+    left: 13%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/*====================GROUP THERAPY=========================*/
+.grouptb {
+    width: 100%;
+}
+
+.grouptb table, th, td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.tables th {
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    background-color: #c7e7e2;
+}
+
+.tables td {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info a:hover {
+    background-color: #c7e7e2;
+}

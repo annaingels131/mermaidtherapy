@@ -1,0 +1,49 @@
+/*====================HERO-REVIEW=========================*/
+#hero-review {
+    background-image: url("../img/books.jpg");
+    height: 400px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 85px 0px 0px 0px;
+}
+
+#hero-review h1 {
+    width: 30%;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.75);
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+
+/*=======================MAP========================*/
+#map-and-contactform {
+    margin: 5% 2%;
+    height: 600px;
+}
+
+.contact-map {
+    width: 45%;
+}
+
+
+#map-c {
+    width: 600px;
+    height: 400px;
+
+}
+
+
+/*======================CONTACT FORM========================*/
+.contact-form {
+    width: 45%;
+}
+
+#contact{
+    height: 559px;
+    width: 300px;
+    padding: 70px 10px 10px 10px;
+}

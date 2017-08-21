@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Sail');
+
+/*==================UNIVERSALS======================*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.sail-font {
+    font-family: 'Sail', cursive;
+}
+
+.comfortaa-font {
+    font-family: 'Comfortaa', cursive;
+}
+
+.open-sans-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*==================HEADER======================*/
+header {
+    height: 86px;
+    background-color: rgba(255,255,255,0.95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#logo {
+    height: 55px;
+}
+
+#logo-text {
+    line-height: 5%;
+}
+
+#logo-padding {
+    padding: 10px;
+}
+
+.nav-links {
+    display: inline-block;
+    padding: 15px;
+    margin: 0px 4px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #c7e7e2;
+    font-size: 15px;
+}
+
+.nav-links:hover {
+    background-color: #44b4b5;
+}
+
+
+#hover-nav:hover>.dropdown {
+    display: block;
+
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 100px;
+    margin: 15px 0;
+}
+
+.dropdown li {
+    padding: 15px;
+    list-style-type: none;
+    background-color: #d6d6d6;
+
+}
+
+.dropdown li:hover {
+    background-color: #44b4b5;
+
+}
+
+/*==================HERO IMAGE======================*/
+#hero {
+    height: 400px;
+    max-width: 100%;
+    background-image: url('../img/kidinsand.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 85px 0px 0px 0px;
+}
+
+#hero-text {
+    width: 35%;
+    margin: 15px 10px;
+    background-color: rgba(255,255,255,0.75);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: #44b4b5;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 30%;
+    padding: 15px;
+    width: 170px;
+    border-radius: 15px;
+}
+
+a:hover button {
+    background-color: #c7e7e2;
+    color: #000;
+}
+
+
+/*==================ASIDE======================*/
+aside {
+    width: 22%;
+}
+
+#hours-location {
+    background-color: #d6d6d6;
+    margin: 10px;
+    padding: 5px 0;
+    border-radius: 15px;
+}
+
+#hours-location ul {
+    padding-right: 15px;
+}
+
+#times li {
+    padding: 5px;
+    list-style-type: none;
+    text-align: left;
+}
+
+/*==================MAIN======================*/
+main {
+    width: 76%;
+}
+
+#mission-statement {
+    background-color: #c7e7e2;
+    padding: 5px;
+    margin: 0;
+    border-radius: 0 0 15px 15px;
+}
+
+main>div>h2 {
+    padding: 5px 20px;
+}
+
+
+/*==================FOOTER======================*/
+footer {
+    background-color: #c7e7e2;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+#quick-contact {
+    margin: 1px 15px;
+    padding: 5px 5px;
+}
+
+.find-us {
+    margin: 15px;
+}
+
+#map-1 {
+    height: 150px;
+    width: 200px;
+    margin: 0;
+}
